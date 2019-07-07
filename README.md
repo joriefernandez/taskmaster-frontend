@@ -7,5 +7,5 @@ This is an application that displays all available tasks. The user can click on 
 ![alt app_photo](photo.png)
 
 ### Links
-[Front-end]()
-[Back-end](http://taskmasterapp.us-east-2.elasticbeanstalk.com/tasks)
+* [Front-end](https://master.d1ouueqql1w4yj.amplifyapp.com/)
+* [Back-end](http://taskmasterapp.us-east-2.elasticbeanstalk.com/tasks)
