@@ -42,7 +42,7 @@ function Tasks() {
   return (
     <ul>
       {tasks.map( (task) =>
-        <li key={task.id}>
+        <li className={`status-${task.status}`}key={task.id}>
           <details>
             <summary>
               <span>{task.title}</span>

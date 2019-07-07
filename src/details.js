@@ -10,7 +10,7 @@ export default function Details(props) {
     <section>
         <div key={props.task.id}>
           <span>Description: {props.task.description}</span>
-          <span>Assignee: {props.task.assignee}</span>
+          <p>Assignee: {props.task.assignee}</p>
         </div>
     </section>
   )
