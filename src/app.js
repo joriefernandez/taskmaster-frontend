@@ -1,16 +1,17 @@
 import React from 'react';
 import Tasks from './tasks.js';
+import Header from './header.js';
 import './app.scss';
 
 
 function App() {
   return (
     <>
-      <header>Task Master</header>
+      <Header />
       <main>
         <Tasks />
       </main>
-      <footer>&copy; 2019 </footer>
+      <footer>&copy; TaskMaster2019 </footer>
       </>
   );
 }
