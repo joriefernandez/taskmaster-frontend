@@ -10,3 +10,6 @@ This is an application that displays all available tasks. The user can click on 
 * [Front-end](https://master.d1ouueqql1w4yj.amplifyapp.com/)
 * [Back-end](http://taskmasterapp.us-east-2.elasticbeanstalk.com/tasks)
 * [Source code for backend](https://github.com/joriefernandez/taskmaster)
+
+### S3 Deployment issue
+* Need to uncheck block public access to view the image url. If not, it would cause Access Denied error
