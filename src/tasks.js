@@ -5,6 +5,7 @@ import Details from './details.js';
 
 const API = 'http://taskmasterapp.us-east-2.elasticbeanstalk.com/tasks'
 
+
 function Tasks() {
 
   const [tasks, setTasks] = useState([]);
@@ -46,7 +47,13 @@ function Tasks() {
           <details>
             <summary>
               <span>{task.title}</span>
-              <span className="status" id={task.id} onClick={_toggleStatus} >{task.status}</span>
+              <button className="status" id={task.id} onClick={_toggleStatus} >{task.status}</button>
+              <form action={`${API}/${task.id}/images`} method="POST" encType="multipart/form-data">
+                <label>
+                  <span>Upload Image: </span>
+                  <input name="file" type="file" />
+                </label>
+              </form>
 
             </summary>
             <Details task={task} />
