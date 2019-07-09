@@ -53,6 +53,7 @@ function Tasks() {
                   <span>Upload Image: </span>
                   <input name="file" type="file" />
                 </label>
+                <button>Save</button>
               </form>
 
             </summary>
