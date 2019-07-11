@@ -11,7 +11,7 @@ export default function Details(props) {
         <div key={props.task.id}>
           <span>Description: {props.task.description}</span>
           <p>Assignee: {props.task.assignee}</p>
-          <img src= {props.task.imgUrl} alt={props.task.imgUrl} />
+          <img className= "img-details" src= {props.task.imgUrl} alt={props.task.imgUrl} />
         </div>
     </section>
   )
