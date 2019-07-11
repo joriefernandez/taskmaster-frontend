@@ -46,6 +46,8 @@ function Tasks() {
         <li className={`status-${task.status}`}key={task.id}>
           <details>
             <summary>
+         
+            <img src= {task.imgResized} />
               <span>{task.title}</span>
               <button className="status" id={task.id} onClick={_toggleStatus} >{task.status}</button>
               <form action={`${API}/${task.id}/images`} method="POST" encType="multipart/form-data">
