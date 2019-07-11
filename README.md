@@ -13,3 +13,5 @@ This is an application that displays all available tasks. The user can click on 
 
 ### S3 Deployment issue
 * Need to uncheck block public access to view the image url. If not, it would cause Access Denied error
+* Lambda function script should use Node.js 8 version to avoid gm module error
+* Public policy access for S3 bucket causes security issues with Amazon.
